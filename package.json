@@ -1,0 +1,9 @@
+{
+  "name": "controle-pedidos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Controle de pedidos (vendedor → caixa → estoque → expedição) com integração automática ao DataCar",
+  "scripts": { "start": "node src/server.js", "test": "node --test" },
+  "engines": { "node": ">=22.13" }
+}

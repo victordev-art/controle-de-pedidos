@@ -1,0 +1,7 @@
+{
+  "numero_pedido": "104582",
+  "vendedor": { "nome": "Carlos" },
+  "cliente": { "nome": "Auto Peças Silva" },
+  "condicao_pagamento": "À vista - PIX",
+  "tipo_entrega": "Balcão"
+}

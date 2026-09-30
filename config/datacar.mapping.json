@@ -1,0 +1,14 @@
+{
+  "_ajuda": "Cada campo aceita vários caminhos (com ponto para objetos aninhados); vale o primeiro preenchido. Ajuste aos nomes reais enviados pelo DataCar.",
+  "listaEm": ["pedidos", "orders", "data", "items"],
+  "externalId": ["id", "numero_pedido", "pedido.numero"],
+  "numero": ["numero_pedido", "pedido.numero", "numero", "id"],
+  "vendedor": ["vendedor.nome", "nome_vendedor", "vendedor"],
+  "cliente": ["cliente.nome", "nome_cliente", "razao_social", "cliente"],
+  "pagamento": ["condicao_pagamento", "forma_pagamento", "pagamento.descricao"],
+  "entrega": ["tipo_entrega", "modalidade", "entrega"],
+  "regras": {
+    "pagoNaHora": ["vista", "dinheiro", "pix", "debito", "credito", "cartao"],
+    "entrega": ["entrega", "delivery", "motoboy", "frete"]
+  }
+}
